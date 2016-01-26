@@ -134,7 +134,7 @@ public class PokerGame {
          PrintStream output = new PrintStream(new File(SAVE_FILE_NAME));
          output.print(score);
       } catch (FileNotFoundException e) {
-         System.out.println("Illegal file");
+         System.out.println("Please place a file" + SAVE_FILE_NAME + "in this directory");
          System.exit(1);
       }
    }
