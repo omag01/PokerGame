@@ -151,7 +151,7 @@ public class PokerGame {
             score = STARTING_SCORE;
          }
       } catch (FileNotFoundException e) {
-         System.out.println("Illegal file");
+         System.out.println("Please place a file " + SAVE_FILE_NAME + " in this directory");
          System.exit(1);
       }
    }
