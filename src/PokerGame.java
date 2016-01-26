@@ -17,7 +17,7 @@ import java.util.Scanner;
 public class PokerGame {
    private static final int STARTING_SCORE = 100;
    private static final int SCORE_MULTIPLIER = 5;
-   private static final String SAVE_FILE_NAME = "saveFile.txt";
+   private static final String SAVE_FILE_NAME = "src/saveFile.txt";
    private int score;
    private Deck deck;
    
